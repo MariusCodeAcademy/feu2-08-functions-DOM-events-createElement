@@ -5,6 +5,7 @@ function makeBodyDark() {
   document.body.style.backgroundColor = '#333';
   document.body.style.color = 'white';
 }
+
 function toggleBodyDark() {
   // ar body spalva yra black
   if (document.body.style.backgroundColor === 'black') {
