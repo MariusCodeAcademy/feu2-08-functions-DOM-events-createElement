@@ -26,7 +26,7 @@
 
     <div id="app">
       <ul class="list">
-        <li class="listEl">one</li>
+        <li class="deleteMe">one</li>
         <li class="listEl">two</li>
         <li class="listEl">three</li>
       </ul>
@@ -39,10 +39,15 @@
     </article>
 
     <ul id="colors" class="list">
-      <li class="deleteMe">Red</li>
-      <li class="deleteMe">Green</li>
-      <li class="deleteMe">Yellow</li>
-      <li class="deleteMe">Blue</li>
+      <!-- // event.target.parentElement.remove() -->
+      <li class="deleteMe">
+        Red
+        <!-- // event.target -->
+        <button class="delBtn">delete</button>
+      </li>
+      <li class="deleteMe">Green <button class="delBtn">delete</button></li>
+      <li class="deleteMe">Yellow <button class="delBtn">delete</button></li>
+      <li class="deleteMe">Blue <button class="delBtn">delete</button></li>
     </ul>
 
   </div>

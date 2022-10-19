@@ -12,12 +12,14 @@ document.body.addEventListener('click', (event) => {
   // tai ant ko paspaudem
   // event.target - elementas ant kurio paspaudem
   console.log('event.target ===', event.target);
-  console.log('event.target.className ===', event.target.className);
+  // console.log('event.target.className ===', event.target.className);
   event.target.style.backgroundColor = '#333';
 
   // jei paspaudziau ant el kuri turi klase deleteMe tai noriu ta el istrinti
-  if (event.target.className === 'deleteMe') {
-    event.target.remove();
+  if (event.target.className === 'delBtn') {
+    // event.target.parentElement.remove();
+    let el = event.target;
+    el.parentElement.remove();
     console.log('bye bye');
   }
 });
