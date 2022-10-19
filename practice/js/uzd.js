@@ -29,4 +29,16 @@ console.log('uzd.js');
 10.2 i <ol> elemento vidu ideti ta stringa (olEl.innerHTML = generatedString)
 10.3 padaryti kad kiekvienas elementas turetu fono spalva tokia kokia yra irasyta tarp li tagu.
 
+11. <button>change h1 color to blue</button> paspaudus daro tai kas parasyta
+
+12. gauti ir iskonsolinti kiek elementu yra ol saraso elemente. 
+
+13. su js padidinti visu ol li elementu teksto raides i upperCase
+
+14. prie esamos  <h3 class="blog__title">Hello people</h3> prideti teksta '--Naujiena--'
+
+15. prie esamos  <p class="blog__text">Sveiki cia James.</p> prideti "as esu is Londono"
+
+16.  <button>light</button> padaro <article class="blog"> fona juoda o teksta balta
+17.  <button>dark</button> padaro <article class="blog"> texta juoda o fona balta
 */
