@@ -23,4 +23,10 @@ console.log('uzd.js');
 
 9. paspaudus <button>delete first li from list</button> istrinti pirma li el is <ol>
 
+// sunkesnis tiems kas norit extra
+10. susikurti masyva su spalvomis red, green, blue, violet, pink, black
+10.1 sugeneruoti li elementu stringa is masyvo
+10.2 i <ol> elemento vidu ideti ta stringa (olEl.innerHTML = generatedString)
+10.3 padaryti kad kiekvienas elementas turetu fono spalva tokia kokia yra irasyta tarp li tagu.
+
 */
