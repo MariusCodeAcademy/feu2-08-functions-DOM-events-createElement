@@ -53,3 +53,19 @@ console.log('uzd.js');
 
 22. <button>Turn <span>dark</span> mode on</button> kiekviena karta paspaudus keiciam teksta dark i light ir atvirksciai
 */
+
+// 4. <li>two</li> padidinti srifto dyti iki 34px
+const secondEl = document.getElementById('secondLi');
+console.log('secondEl ===', secondEl);
+secondEl.style.fontSize = '34px';
+
+// 5. paspaudus mygtuka <button>click me</button> pakeisti h1 teksta i 'Pakeiciau su mygtuku'
+
+const h1El = document.querySelector('h1');
+const btn1 = document.getElementById('btn1');
+
+function changeH1Text() {
+  h1El.textContent = 'Pakeiciau su mygtuku';
+}
+// kai paspausiu pelyte and btn1El, ivyks changeH1Text funkcija
+btn1.addEventListener('click', changeH1Text);
