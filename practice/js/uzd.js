@@ -13,4 +13,14 @@ console.log('uzd.js');
 
 4. <li>two</li> padidinti srifto dyti iki 34px
 
+5. paspaudus mygtuka <button>click me</button> pakeisti h1 teksta i 'Pakeiciau su mygtuku'
+
+6. <p class="time">12:45</p> elementui pakeisti teksta i dabartini laika pvz '13:50' ir padaryti pastorinta srifta
+
+7. <li>one</li> istrinti
+
+8. paspaudus <button>make article dark</button> padaryti <article> fona juoda, o teksta balta
+
+9. paspaudus <button>delete first li from list</button> istrinti pirma li el is <ol>
+
 */
