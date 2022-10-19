@@ -65,7 +65,10 @@ const h1El = document.querySelector('h1');
 const btn1 = document.getElementById('btn1');
 
 function changeH1Text() {
-  h1El.textContent = 'Pakeiciau su mygtuku';
+  h1El.textContent = 'Pakeiciau su mygtuku ';
+  // h1El.textContent = h1El.textContent + new Date().toLocaleString('Lt-lt', { timeStyle: 'medium' });
+  // h1El.textContent += new Date().toLocaleString('Lt-lt', { timeStyle: 'medium' });
 }
 // kai paspausiu pelyte and btn1El, ivyks changeH1Text funkcija
 btn1.addEventListener('click', changeH1Text);
+h1El.addEventListener('click', changeH1Text);
