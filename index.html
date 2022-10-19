@@ -9,12 +9,19 @@
   <link rel="stylesheet" href="./style/style.css" />
   <!-- itraukiu javascript -->
   <!-- <script src="./js/dom.js" defer></script> -->
-  <script src="./js/domPr.js" defer></script>
+  <!-- <script src="./js/domPr.js" defer></script> -->
+  <script src="./js/events.js" defer></script>
 </head>
 
 <body>
   <div class="container">
     <h1 id="mainHeading">DOM DOM DOM</h1>
+
+    <div class="control">
+      <!-- <button onclick="makeBodyDark()" id="btn1">Click me</button> -->
+      <button id="btn1">Click me</button>
+      <button id="btn2">Toggle dark mode</button>
+    </div>
 
     <div id="app">
       <ul class="list">
@@ -24,7 +31,7 @@
       </ul>
     </div>
 
-    <article class="art">
+    <article class="art card">
       <h2 id="art__title" class="art__title">Main title</h2>
       <p id="art__date">Date</p>
       <p id="art__text">Lorem ipsum dolor</p>
@@ -33,6 +40,7 @@
     <ul id="colors" class="list">
       <li>Red</li>
       <li>Green</li>
+      <li>Yellow</li>
       <li>Yellow</li>
     </ul>
 
