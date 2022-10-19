@@ -40,5 +40,16 @@ console.log('uzd.js');
 15. prie esamos  <p class="blog__text">Sveiki cia James.</p> prideti "as esu is Londono"
 
 16.  <button>light</button> padaro <article class="blog"> fona juoda o teksta balta
+
 17.  <button>dark</button> padaro <article class="blog"> texta juoda o fona balta
+
+18 <button>destroy</button> istrina <article class="blog">
+
+19. <div class="box-container"></div> i vidu ikelti paragrafa su tekstu "i am dynamic" (innerHTML)
+
+20.  <button>add paragraph</button> paspaudus ivyksta 19ta uzduotis
+
+21. <button>Turn <span>dark</span> mode on</button> paspaudus pakeiciam teksta dark i light
+
+22. <button>Turn <span>dark</span> mode on</button> kiekviena karta paspaudus keiciam teksta dark i light ir atvirksciai
 */
