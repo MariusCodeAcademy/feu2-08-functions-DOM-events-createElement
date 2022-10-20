@@ -72,3 +72,25 @@ function changeH1Text() {
 // kai paspausiu pelyte and btn1El, ivyks changeH1Text funkcija
 btn1.addEventListener('click', changeH1Text);
 h1El.addEventListener('click', changeH1Text);
+
+// 13. su js padidinti visu ol li elementu teksto raides i upperCase
+
+// nusitaikyti i visus elementus, gausiu kolekcija arba node list
+const numElementsArr = document.querySelectorAll('.numerList > li');
+console.log('numElementsArr ===', numElementsArr);
+// sukti cikla per visus el
+for (let liEl of numElementsArr) {
+  //// paimti reiksme, padidinti case , irasyti atgal i elementa
+  // console.log(liEl.textContent.toUpperCase());
+  liEl.textContent = liEl.textContent.toUpperCase();
+}
+
+// for i ciklas
+for (let i = 0; i < numElementsArr.length; i++) {
+  // let liEl = numElementsArr[i];
+  // numElementsArr[i].textContent = numElementsArr[i].textContent.toUpperCase();
+}
+
+// 19. <div class="box-container"></div> i vidu ikelti paragrafa su tekstu "i am dynamic" (innerHTML)
+
+// 21. <button>Turn <span>dark</span> mode on</button> paspaudus pakeiciam teksta dark i light
