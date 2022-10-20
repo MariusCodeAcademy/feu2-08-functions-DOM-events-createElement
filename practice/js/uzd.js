@@ -93,4 +93,26 @@ for (let i = 0; i < numElementsArr.length; i++) {
 
 // 19. <div class="box-container"></div> i vidu ikelti paragrafa su tekstu "i am dynamic" (innerHTML)
 
+const boxContainerEl = document.querySelector('.box-container');
+console.log('boxContainerEl ===', boxContainerEl);
+const pElHtml = '<p>I am dynamic, Yeeee!!!</p>';
+
+// <elementas i kuri dedam>.innerHTML = <html stringas>
+// createAndAddP();
+
+// 20.  <button>add paragraph</button> paspaudus ivyksta 19ta uzduotis
+// nusitaikyti i <button>add paragraph</button>
+const addBtnEl = document.getElementById('add');
+// uzdeti paspaudimo pasiklausyma
+addBtnEl.addEventListener('click', createAndAddP);
+// paspaudus mes norim prideti nauja p elementa i html
+function createAndAddP() {
+  // boxContainerEl.innerHTML = boxContainerEl.innerHTML + pElHtml;
+  boxContainerEl.innerHTML += pElHtml;
+}
 // 21. <button>Turn <span>dark</span> mode on</button> paspaudus pakeiciam teksta dark i light
+
+// hoisting -
+// 1 ciklas - nuskaitomas visas failas ir ieskoma funckiju deklaravimo
+// jei randam jos perkeliamos i failo virsu
+// 2 ciklas kodas skaitomas is virsaus i apacia
